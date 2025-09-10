@@ -1,50 +1,76 @@
-# Welcome to your Expo app 👋
+# 📋 React Native Todo App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple **Todo App** built in **React Native** using **Context API** for state management and **AsyncStorage** for persistent local storage.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
+- Add new tasks 📝
+- Edit existing tasks ✏️
+- Delete tasks ❌
+- Mark tasks as complete ✅
+- Persistent storage using AsyncStorage
+- Clean, minimal UI with modal popups
+- Works on both Android and iOS
 
-   ```bash
-   npm install
-   ```
+---
 
-2. Start the app
+## 🎨 Color Palette
+- Muted Blue: `#6A89A7`
+- Light Blue: `#BDDDFC`
+- Medium Bright Blue: `#88BDF2`
+- Dark Blue: `#122B68`
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## ⚙️ Tech Stack
+- React Native
+- React Context API
+- AsyncStorage (for local persistence)
+- Expo (for easier development & deployment)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 📱 Screenshots
 
-## Get a fresh project
+![Screenshot 1](./assets/images/Screenshot_1.jpg)  
+![Screenshot 2](./assets/images/Screenshot_2.jpg)
 
-When you're ready, run:
+---
 
+## 💻 Getting Started
+
+### 1️⃣ Clone this repository
 ```bash
-npm run reset-project
-```
+git clone https://github.com/magnum1122/react-native-todo-app.git
+cd react-native-todo-app
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 2️⃣ Install dependencies
+```bash
+npm install
+# or
+yarn install
 
-## Learn more
+### 3️⃣ Run the app
+```bash
+npx expo start
 
-To learn more about developing your project with Expo, look at the following resources:
+🔧 Folder Structure
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+/app/Context/todoContext.js        - Todo Context API Provider
+/assets/images                     - Images and Icons
+/app                               - App Screens (index.js, _layout.tsx etc.)
 
-## Join the community
 
-Join our community of developers creating universal apps.
+⭐️ Contributions
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Feel free to submit issues or pull requests.
+Let me know if you have any ideas to improve it!
+
+
+📄 License
+
+This project is open source under the MIT License.
+
+
+Made with ❤️ by Abhishek Chauhan
