@@ -33,9 +33,7 @@ A simple **Todo App** built in **React Native** using **Context API** for state 
 
 ## 📱 Screenshots
 
-![Screenshot 1](./assets/images/Screenshot_1.jpg)  
-![Screenshot 2](./assets/images/Screenshot_2.jpg)
-
+![Screenshot](./assets/images/Screenshort.png)
 ---
 
 ## 💻 Getting Started
